@@ -1,0 +1,106 @@
+.register-container {
+  width: 100%;
+  max-width: 360px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.register-container h1 {
+  color: #333333;
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #ff0000;
+  text-align: center;
+}
+
+.register-container div {
+  margin-bottom: 15px;
+}
+
+.register-container span {
+  font-weight: bold;
+}
+
+.register-container input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    padding: 15px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container {
+    width: 90%;
+    padding: 10px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-container h1,
+  .register-container h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container h1,
+  .register-container h2 {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 768px) {
+  .register-container input,
+  .register-container button {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container input,
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container button {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .register-container div {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cs5610_spr23_mod3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -ws --if-present",
+    "prod": "npm run start -w backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajorgense1-chwy/cs5610_spr23_mod3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajorgense1-chwy/cs5610_spr23_mod3/issues"
+  },
+  "homepage": "https://github.com/ajorgense1-chwy/cs5610_spr23_mod3#readme",
+  "dependencies": {
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "tailwindcss": "^3.4.3"
+  }
+}
